@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (min-width:320px)and(max-width:767px){
+            body{
+                font-size:20px;
+                background:red
+            }
+            p{
+                display:none;
+
+            }
+            h1,h3{
+                color: white;
+            }
+            .img1{
+                display:none
+            }
+        }
+
+        @media (min-width:768px){
+            body{
+                background-color: green;
+            }
+        }
+
+         @media (min-width:1024px){
+            body{
+                background-color: yellow;
+            }
+        }
+
+         @media (min-width:1124px){
+            body{
+                background-color:red;
+            }
+        }
+
+         @media (min-width:1824px){
+            body{
+                background-color:orange;
+            }
+        }
+
+         
+    </style>
+</head>
+<body>
+    <h1>CSS media Queries</h1>
+    <p>The backgroun will change according to the viewport width change</p><br><br>
+    <img class="img1" src="images/lovely baby cat.jfif" alt="cat">
+
+    <h3>Samrtphone-<span class="details">from 320px and up</span>(min-width:320px)</h3>
+    <p>Blue</p>
+    <br>
+
+    <h3>Tablets,ipad(portrait)-<span class="details">from 768px</span>(min-width:420px)</h3>
+    <p>green</p>
+    <br>
+
+    <h3>Tablets,ipads(landscape)-<span class="details">from 1024 and up</span>(min-width:1024)</h3>
+    <p>yellow</p>
+    <br>
+
+     <h3>desktops and laptops(landscape)-<span class="details">from 1124 and up</span>(min-width:1024)</h3>
+    <p>red</p>
+    <br>
+
+    <h3>Large screens-<span class="details">from 1824px and up</span>(min-width:1824)</h3>
+    <p>orange</p>
+    <br>
+
+
+    <br>
+</body>
+</html>
